@@ -1,2 +1,4 @@
 name: Cody Williams
 markdown: kramdown
+
+permalink: /blog/:year/:month/:day/:title
