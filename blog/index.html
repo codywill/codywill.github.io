@@ -11,7 +11,8 @@ title: Recent Posts
     <li><span class="date">{{ post.date | date_to_string }}</span><br>
     {{ post.excerpt }}
     <a href="{{ post.url }}" title="{{ post.title }}" style="font-size: 11px;"><i>Read more...<i></a>
-    <br>
     </li>
+    <br>
+    <br>
   {% endfor %}
 </ul>
